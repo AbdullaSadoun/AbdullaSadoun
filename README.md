@@ -13,9 +13,9 @@ I'm Abdulla, a passionate and dedicated software and systems engineer specializi
 
 ## 🛠 Projects
 Here are some of the projects I've worked on that demonstrate my skills and interests:
-- ### Electric Vehicle Simulator
+ ### Electric Vehicle Simulator
 - Software in C to simulate usage of autonmous electric vehicles to complete deliveries
-- ### Vehicle Advertising Algorithm
+ ### Vehicle Advertising Algorithm
 - C++ Sotftware to get familiar with data structures in OOP
 - Using searching, and sorting algorithms 
 
