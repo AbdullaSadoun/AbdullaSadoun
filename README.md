@@ -23,6 +23,7 @@ Here are some of the projects I've worked on that demonstrate my skills and inte
 - Relational Database and Microsoft Azure Fundamentals
 - Machine Learning and Neural Networks
 - Getting Familiar with Python, SQL and Swift
+- LEETCODE!!!! https://leetcode.com/AbdullaSa/
 
 ## 📫 How to reach me
 - LinkedIn: www.linkedin.com/in/abdullasadoun
