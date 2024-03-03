@@ -8,7 +8,7 @@ I'm Abdulla, a passionate and dedicated software and systems engineer specializi
 - **Systems Programming:** Extensive experience in developing systems and solutions for various real life problems.
 - **Database Management:** Knowledgeable in SQL, MySQL, PostgreSQL, and MongoDB.
 - **Version Control:** Experienced with Git.
-- **Operating Systems:** Well-versed in Windows and MacOS environments.
+- **Operating Systems:** Well-versed in Windows, MacOS and Linux environments.
 - **Networking & Security:** Solid understanding of networking protocols and cybersecurity best practices.
 
 ## 🛠 Projects
