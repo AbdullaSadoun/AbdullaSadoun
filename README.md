@@ -2,11 +2,20 @@
 Portfolio Website
 
 
-look at this repo: https://github.com/BurhanMohammad/Django-Portfolio-website 
+look at this repo: https://github.com/BurhanAbdulla/Django-Portfolio-website 
 for inspiration
 
 
 https://github.com/ashish-makes/django-tailwind-blog
+
+# use the following links/info to create:
+- LinkedIn: www.linkedin.com/in/abdullasadoun
+- Email: Abdulla.Sadoun@dal.ca
+- LEETCODE!!!! https://leetcode.com/AbdullaSa/
+- https://github.com/AbdullaSadoun
+
+- Location: Halifax, NS (B3H1Y3) 
+- Phone: 902-266-9696 
 
 # Django Tailwind Blog - A Developer Portfolio & Blog
 
@@ -166,3 +175,101 @@ python manage.py collectstatic
 python manage.py runserver
 ```
 8. Access the website using your server's IP address or domain name, and the port number of the server if necessary. For example, if you're running the development server on port 8000, you can access the website at `http://your-server-ip:8000/`.
+
+
+
+#
+# My Personal Portfilio Website (Django)
+
+Personal portfolio website made with Django framework in the backend, and with CSS, JS, and Bootstrap for the frontend. It is a dynamic site so that you can control the content of the site through the admin area
+
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+
+
+## Demo
+
+(https://user-images.githubusercontent.com/104616403/210330707-c8607c2b-6929-435f-bb58-d3176454b4fa.gif)
+
+
+## Screenshots
+
+![image](https://user-images.githubusercontent.com/104616403/210331817-c266db91-fcfa-40e2-99ad-8c857c55051d.png)
+
+![image](https://user-images.githubusercontent.com/104616403/210332043-779ddac8-b1a7-4414-b5bd-ebe67d4200df.png)
+![image](https://user-images.githubusercontent.com/104616403/210332104-4a4556c7-5583-43bc-b39a-bc62b6b5e367.png)
+
+![image](https://user-images.githubusercontent.com/104616403/210332171-190afc75-9174-4ffa-b9d2-3541b5fd0ebb.png)
+
+![image](https://user-images.githubusercontent.com/104616403/210332226-cbfbe6e5-732d-4442-9aae-218b6e6292b0.png)
+
+![image](https://user-images.githubusercontent.com/104616403/210332284-9d69c838-ab8e-4e71-ac6b-2f0ed514561a.png)
+
+
+
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://ca.linkedin.com/in/abdullasadoun)
+
+
+## 🛠 Skills
+Javascript, HTML, CSS, python, Django, Bootstrap...
+
+
+# Hi, I'm Abdulla Burhan! 👋
+
+
+## 🚀 About Me
+I'm a full stack developer...
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at burhanAbdulla1234@out.com
+
+
+## Tech Stack
+
+**Client:** Html, css, Bootstrap
+
+**Server:** python, Django
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/BurhanAbdulla/Django-portfilio-website.git
+```
+
+Go to the project directory
+
+```bash
+  cd Django-portfilio-websitet
+```
+
+MAKE  Migration
+
+```bash
+  python manage.py makemigrations
+```
+
+MAKE  Migration
+
+```bash
+  python manage.py migrate     
+```
+Start the server
+
+```bash
+  python manage.py runserver     
+```
+
+
+## Authors
+
+- [@Abdulla Burhan](https://github.com/BurhanAbdulla)
+

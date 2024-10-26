@@ -1,0 +1,12 @@
+  
+1 - ensure django is in installed pip install django
+
+2 - ensure you are in the right directory: cd PORTFOLIOWEBAPP
+
+3 - python manage.py makemigrations
+
+4 - python manage.py migrate     
+
+5 - python manage.py runserver     
+
+open port 8000
