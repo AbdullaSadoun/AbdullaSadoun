@@ -12,11 +12,13 @@ def home(request):
     #     message == request.POST['message']
     #     contact = models.Home(name=name, email=email, subject=subject, message=message)
     #     contact.save()
-    return render(request, 'home.html')
+    #return render(request, 'home.html')
+    return render(request, 'index.html')
 
 
 def project(request):
-    return render(request, 'project.html')
+    #return render(request, 'project.html')
+    return render(request, 'portfolio-details.html')
 
 
 def contact(request):
@@ -28,5 +30,6 @@ def contact(request):
         message == request.POST['message']
         contact = models.Home(name=name, email=email, subject=subject, message=message)
         contact.save()
-    return render(request, 'home.html')
+    #return render(request, 'home.html')
+    return render(request, 'index.html')
 

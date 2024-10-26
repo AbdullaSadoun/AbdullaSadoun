@@ -2,7 +2,7 @@
 Portfolio Website
 
 
-look at this repo: https://github.com/BurhanAbdulla/Django-Portfolio-website 
+look at this repo: https://github.com/SadounAbdulla/Django-Portfolio-website 
 for inspiration
 
 
@@ -218,7 +218,7 @@ Personal portfolio website made with Django framework in the backend, and with C
 Javascript, HTML, CSS, python, Django, Bootstrap...
 
 
-# Hi, I'm Abdulla Burhan! 👋
+# Hi, I'm Abdulla Sadoun! 👋
 
 
 ## 🚀 About Me
@@ -227,7 +227,7 @@ I'm a full stack developer...
 
 ## Feedback
 
-If you have any feedback, please reach out to us at burhanAbdulla1234@out.com
+If you have any feedback, please reach out to us at SadounAbdulla1234@out.com
 
 
 ## Tech Stack
@@ -242,7 +242,7 @@ If you have any feedback, please reach out to us at burhanAbdulla1234@out.com
 Clone the project
 
 ```bash
-  git clone https://github.com/BurhanAbdulla/Django-portfilio-website.git
+  git clone https://github.com/SadounAbdulla/Django-portfilio-website.git
 ```
 
 Go to the project directory
@@ -271,5 +271,5 @@ Start the server
 
 ## Authors
 
-- [@Abdulla Burhan](https://github.com/BurhanAbdulla)
+- [@Abdulla Sadoun](https://github.com/SadounAbdulla)
 
