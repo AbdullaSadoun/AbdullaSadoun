@@ -14,7 +14,8 @@ body {
 }
 
 a {
-  color: #0563bb;
+  color: #6e6259;
+  /*-------------------------*/
 }
 
 a:hover {
@@ -37,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0563bb;
+  background: #6e6259;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -75,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #6e6259;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -159,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #45505b;
+  color: a6b0ba;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -178,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: a6b0ba;
 }
 
 @media (min-width: 992px) {
@@ -193,7 +194,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
-  background: #0563bb;
+  /* background: #6e6259; */
+  background: #4F4B4B; /* abood */
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
@@ -226,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: a6b0ba;
 }
 
 .mobile-nav-active {
@@ -238,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #0563bb;
+  color: #6e6259;
 }
 
 /*--------------------------------------------------------------
@@ -247,12 +249,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("../img/Qatar.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) { 
   #hero {
     padding-left: 160px;
   }
@@ -273,18 +275,20 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  /*color: a6b0ba; /* abood says 4 5 5 0 5 b for phone dark and all other.*/
+  color: #45505b
 }
 
 #hero p {
-  color: #45505b;
+  color: a6b0ba;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #0563bb;
+  /* color: #6e6259; */
+  color: #4F4B4B; /* abood */
   letter-spacing: 1px;
 }
 
@@ -295,14 +299,14 @@ h1, h2, h3, h4, h5, h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: a6b0ba;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #6e6259;
 }
 
 @media (max-width: 992px) {
@@ -340,7 +344,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: a6b0ba;
 }
 
 .section-title h2::before {
@@ -360,7 +364,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #6e6259;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -390,7 +394,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #0563bb;
+  color: #6e6259;
 }
 
 .about .content p:last-child {
@@ -415,7 +419,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
+  background: #6e6259;
   padding: 12px;
   color: #fff;
   border-radius: 50px;
@@ -451,7 +455,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  color: a6b0ba;
 }
 
 .skills .progress .skill .val {
@@ -467,7 +471,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #0563bb;
+  background-color: #6e6259;
 }
 
 /*--------------------------------------------------------------
@@ -478,13 +482,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: a6b0ba;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #6e6259;
   position: relative;
 }
 
@@ -494,7 +498,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #6e6259;
   margin-bottom: 10px;
 }
 
@@ -528,7 +532,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #6e6259;
 }
 
 /*--------------------------------------------------------------
@@ -562,7 +566,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: #6e6259;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -636,12 +640,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #45505b;
+  color: a6b0ba;
   font-weight: 600;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #45505b;
+  color: a6b0ba;
   font-size: 14px;
   text-transform: uppercase;
   padding: 0;
@@ -654,7 +658,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #45505b;
+  color: a6b0ba;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
@@ -733,7 +737,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #45505b;
+  color: a6b0ba;
   transition: ease-in-out 0.3s;
 }
 
@@ -889,7 +893,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #0563bb !important;
+  background-color: #6e6259 !important;
 }
 
 @media (min-width: 992px) {
@@ -908,7 +912,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #6e6259;
   float: left;
   width: 44px;
   height: 44px;
@@ -925,7 +929,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: a6b0ba;
 }
 
 .contact .info p {
@@ -940,7 +944,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #6e6259;
   color: #fff;
 }
 
@@ -1018,7 +1022,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #0563bb;
+  background: #6e6259;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1076,7 +1080,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #0563bb !important;
+  background-color: #6e6259 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1115,7 +1119,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #f7f8f9;
-  color: #45505b;
+  color: a6b0ba;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1144,7 +1148,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #6e6259;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1169,3 +1173,128 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/* Dark Mode Styles */
+body.dark-mode {
+  /* --background-color: #121212; */
+  /* --background-color: #222222; */
+  --background-color: #222222; /* same the remote work website*/
+  --text-color: #e0e0e0;
+  --link-color: #bb86fc;
+  --hover-link-color: #bb86fc;
+}
+
+/* Apply dark mode colors */
+body.dark-mode {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body.dark-mode a {
+  color: var(--link-color);
+}
+
+body.dark-mode a:hover {
+  color: var(--hover-link-color);
+}
+
+/* Dark mode for header */
+body.dark-mode #header {
+  /* background: #333; */
+  color: var(--text-color);
+}
+
+body.dark-mode #header a {
+  color: var(--text-color);
+}
+
+/* Dark mode for nav-menu */
+body.dark-mode .nav-menu a {
+  background: #333;
+  color: var(--text-color);
+}
+
+body.dark-mode .nav-menu a:hover, 
+body.dark-mode .nav-menu .active > a, 
+body.dark-mode .nav-menu li:hover > a {
+  background: #444;
+  color: #fff;
+}
+
+/* Dark mode for sections */
+body.dark-mode section {
+  background-color: #222222;
+  color: var(--text-color);
+}
+
+body.dark-mode .section-title h2 {
+  color: var(--text-color);
+}
+
+/* Dark mode for footer */
+body.dark-mode #footer {
+  background-color: #333;
+  color: var(--text-color);
+}
+
+body.dark-mode #footer .social-links a {
+  background-color: #444;
+}
+
+body.dark-mode #footer .social-links a:hover {
+  background-color: #555;
+}
+
+/* Dark mode for resume items */
+body.dark-mode .resume .resume-item h5 {
+  /* background: #333;  Darker background for dark mode */
+  background: #070809;  /* Darker background for dark mode */
+  color: #e0e0e0;    /* Light text color */
+}
+
+/* Dark mode for hero section image */
+body.dark-mode #hero:before {
+  background: rgba(0, 0, 0, 0.65); /* Dark overlay */
+  filter: brightness(0.65); /* Reduce brightness to 70% */
+}
+
+/* Dark mode for facts count box: */
+body.dark-mode .facts .count-box {
+  background: #4d5155; /* Darker background for dark mode */
+}
+
+/*the color for the happy client numbers.. aaadb1 */
+/* Dark mode for counter-up numbers (happy clients, projects etc.) */
+body.dark-mode [data-toggle="counter-up"] {
+  color: #aaadb1;  /* Light purple for dark mode */
+}
+
+/* Dark mode for services icon boxes */
+body.dark-mode .services .icon-box {
+  background: #333; /* Darker background for dark mode */
+}
+
+/* Dark mode for contact info section */
+body.dark-mode .contact .info {
+  background: #222222; /* Darker background for dark mode */
+}
+
+/* Dark mode for hero text (only on Desktops)*/
+@media (min-width: 992px) { 
+  body.dark-mode #hero h1 {
+    color: #2b3136;
+  }
+  /* make the typed text a bit darker */
+  body.dark-mode #hero p span {
+    color: #2b3136;
+  }
+}
+
+/* make the form background the same as the rest of the page */
+body.dark-mode .contact .php-email-form {
+  background: #222222;
+}
+
+/* make the front page (my name have 45505b) on the phone */ 
+
+
