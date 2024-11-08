@@ -1,12 +1,14 @@
 # Abdulla Sadoun
 
 ## 👋 Hi there!
-I'm Abdulla, a passionate and dedicated software and systems engineer specializing in low-latency, high-performance applications, and system-level programming. With a strong background in Electrical and Computer Engineering, I thrive on challenging the boundaries of efficiency and speed in computing.
+I'm Abdulla, a passionate and dedicated software and systems engineer specializing in low-latency, high-performance applications, and system-level programming along with integrating AI and machine learning to the workforce and for Data Analysis and Analystics. With a strong background in Electrical and Computer Engineering, I thrive on challenging the boundaries of efficiency and speed in computing.
 
 ## 💻 Technical Skills
 - **Languages:** Proficient in C, C++, Python, Swift and MATLAB.
 - **Systems Programming:** Extensive experience in developing systems and solutions for various real life problems.
 - **Database Management:** Knowledgeable in SQL, MySQL, PostgreSQL, and MongoDB.
+- **Frameworks:** Experience with django flask.
+- **Machine Learning:** 
 - **Version Control:** Experienced with Git.
 - **Operating Systems:** Well-versed in Windows, MacOS and Linux environments.
 - **Networking & Security:** Solid understanding of networking protocols and cybersecurity best practices.
