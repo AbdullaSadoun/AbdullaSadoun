@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Abdulla Sadoun</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <!-- <link href="{% static 'assets/img/favicon.png" rel="icon">
+ <link href="{% static 'assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+    <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
+    <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/venobox/venobox.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: MyResume - v2.2.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Mobile nav toggle button ======= -->
+    <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    <!-- ======= Header and Nav Bar ======= -->
+    <header id="header" class="d-flex flex-column justify-content-center">
+
+        <nav class="nav-menu">
+            <ul>
+                <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+                <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+                <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+                <li><a href="#services"><i class="bx bx-server"></i> <span>Services</span></a></li>
+                <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+                <!-- <li><a href="#DARKMODE"><i class="bx bx-envelope"></i> <span>Contact</span></a></li> -->
+                <li><a href="javascript:void(0);" id="darkModeToggle"><i class="bx bx-moon"></i> <span>Dark
+                            Mode</span></a></li> <!-- Dark mode toggle button -->
+            </ul>
+        </nav><!-- .nav-menu -->
+
+    </header><!-- End Header -->
+
+    <!-- DARKMODE SCRIPT-->
+    <script>
+        // Dark mode toggle functionality
+        const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
+        const body = document.body;
+        const toggleButton = document.getElementById('darkModeToggle');
+
+        if (isDarkMode) {
+            body.classList.add('dark-mode');
+        }
+
+        toggleButton.addEventListener('click', function () {
+            body.classList.toggle('dark-mode');
+
+            // Save the user's preference
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                localStorage.removeItem('darkMode');
+            }
+        });
+    </script>
+
+    <!-- this might have to go -->
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex flex-column justify-content-center">
+        <div class="container" data-aos="zoom-in" data-aos-delay="100">
+            <h1>Abdulla Sadoun</h1>
+            <p>I'm <span class="typed" data-typed-items="a Developer,a Learner,a Problem Solver"></span></p>
+            <div class="social-links">
+                <!-- <a href="https://www.linkedin.com/in/abdullasadoun/" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/abdullasadoun/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/abdullasadoun/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/abdullasadoun/" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+                <a href="https://www.github.com/AbdullaSadoun" class="github"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/abdullasadoun/" class="linkedin"><i
+                        class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>About</h2>
+                    <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
+                    <p>Highly motivated and results-driven Electrical and Computer Engineering student at Dalhousie
+                        University, specializing in software development, embedded systems, and machine learning. Known
+                        for the ability to bridge the gap between hardware and software, delivering scalable solutions
+                        to complex problems. With a strong background in programming, system integration, and technical
+                        leadership, Abdulla has demonstrated excellence through hands-on projects and academic
+                        achievements.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="{% static 'assets/img/profile-img.jpg' %}" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-8 pt-4 pt-lg-0 content">
+                        <h3>Electrical &amp; Computer Engineering Student</h3>
+                        <p class="font-italic">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore
+                            magna aliqua.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 24 August 2003
+                                    </li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.asadoun.com
+                                    </li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +1 902 266 9696
+                                    </li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Halifax, NS</li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 21</li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> B.Eng - Computer
+                                    </li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>PhEmailone:</strong>
+                                        Abdulla.Sadoun@dal.ca</li>
+                                    <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p>
+                            Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt
+                            adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+                            Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus
+                            itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
+                            culpa magni laudantium dolores.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Section -->
+
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Contact</h2>
+                </div>
+
+                <div class="row mt-1">
+
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="address">
+                                <i class="icofont-google-map"></i>
+                                <h4>Location:</h4>
+                                <p>A108 Adam Street, New York, NY 535022</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="icofont-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>info@example.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="icofont-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+1 902 266 9696</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="form-row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" data-rule="minlen:4"
+                                        data-msg="Please enter at least 4 chars" />
+                                    <div class="validate"></div>
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Your Email" data-rule="email"
+                                        data-msg="Please enter a valid email" />
+                                    <div class="validate"></div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" data-rule="minlen:4"
+                                    data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required"
+                                    data-msg="Please write something for us" placeholder="Message"></textarea>
+                                <div class="validate"></div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">Your message has been sent. Thank you!</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Send Message</button></div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container">
+            <h3>Abdulla Sadoun</h3>
+            <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi
+                placeat.</p>
+            <div class="social-links">
+                <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+                <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
+                <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
+                <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="github><i class=" bx bxl-github"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: [license-url] -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+    <script src="{% static 'assets/vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/counterup/counterup.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/venobox/venobox.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/typed.js/typed.min.js' %}"></script>
+    <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>

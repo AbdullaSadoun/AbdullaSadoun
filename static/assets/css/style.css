@@ -288,7 +288,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero p span {
   /* color: #6e6259; */
-  color: #4F4B4B; /* abood */
+  /* color: #4F4B4B; abood */
+ /* abood */
   letter-spacing: 1px;
 }
 
@@ -1180,8 +1181,8 @@ body.dark-mode {
   /* --background-color: #222222; */
   --background-color: #222222; /* same the remote work website*/
   --text-color: #e0e0e0;
-  --link-color: #bb86fc;
-  --hover-link-color: #bb86fc;
+  /* --link-color: #bb86fc; */
+  /* --hover-link-color: #bb86fc; */
 }
 
 /* Apply dark mode colors */
@@ -1286,7 +1287,7 @@ body.dark-mode .contact .info {
   }
   /* make the typed text a bit darker */
   body.dark-mode #hero p span {
-    color: #2b3136;
+    /* color: #2b3136; */
   }
 }
 
@@ -1296,5 +1297,6 @@ body.dark-mode .contact .php-email-form {
 }
 
 /* make the front page (my name have 45505b) on the phone */ 
+
 
 

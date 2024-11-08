@@ -17,6 +17,59 @@ https://github.com/ashish-makes/django-tailwind-blog
 - Location: Halifax, NS (B3H1Y3) 
 - Phone: 902-266-9696 
 
+# To run
+1 - ensure django is in installed pip install django
+
+2 - ensure you are in the right directory: cd PORTFOLIOWEBAPP
+
+3 - python manage.py makemigrations
+
+4 - python manage.py migrate     
+
+5 - python manage.py runserver  
+
+open port 8000
+
+# Before Hosting the website checklist: 
+## Create base.html 
+## Add full experience page 
+## Add Relational Database
+## Prepare dockerfile
+## Django Project Preparation
+    -Project Structure: Ensure your Django project is well-structured with appropriate apps, templates, and static files organized.
+    -Static Files: Make sure your static files (CSS, JavaScript, images) are collected and properly configured using STATIC_URL and STATIC_ROOT.
+    -Secret Key & Settings: Double-check that your SECRET_KEY, DEBUG, and other sensitive settings are not hardcoded in your settings.py. Use environment variables for these.
+    -Database Configuration: Ensure you're using the correct database settings (SQLite for development, but consider PostgreSQL or MySQL for production).
+    -Allowed Hosts: Update ALLOWED_HOSTS in settings.py to include your domain name or the IP address of the hosting server.
+    -Media Files: If you're handling user-uploaded files, configure MEDIA_URL and MEDIA_ROOT.
+    -URLs & Views: Check that all URLs are correctly mapped and each view renders properly.
+    -Testing: Thoroughly test your website locally, including forms, pages, and dynamic content.
+
+### Security Enhancements: Use security best practices:
+    Enable HTTPS.
+    -Set SECURE_HSTS_SECONDS, SECURE_SSL_REDIRECT, and other security-related settings for production.
+    Use X-Frame-Options, Content-Security-Policy, and X-Content-Type-Options headers.
+
+### Deployment Preparation:
+    Prepare for Static Files: Run python manage.py collectstatic to gather all static files into the static root folder.
+    Requirements File: Ensure you have a requirements.txt file generated with pip freeze > requirements.txt.
+    Database Migrations: Run python manage.py makemigrations and python manage.py migrate to ensure the database schema is up-to-date.
+    Superuser Account: Create a superuser account with python manage.py createsuperuser for admin access.
+
+### Server & Hosting
+    Domain Name: Have a domain name ready, and ensure it's properly linked to your server.
+    SSL Certificate: Get an SSL certificate (e.g., from Let's Encrypt) to secure your site.
+    Deployment Tools: Decide whether you're using Gunicorn, uWSGI, or another WSGI server to serve your Django app.
+    Web Server: Install and configure a web server like Nginx or Apache as a reverse proxy for your Django app.
+    Environment Variables: Set up environment variables for sensitive settings such as SECRET_KEY, database credentials, etc.
+    Virtual Environment: Ensure your Django project runs in a virtual environment on the server.
+    Git Version Control: Use Git to manage your project’s version control, and set up deployment pipelines if necessary.
+
+### Final Testing
+    Cross-Browser Testing: Test your portfolio on different browsers (Chrome, Safari, Firefox, etc.).
+    Mobile-Friendly: Ensure the site is responsive and works well on mobile devices.
+    404 and 500 Pages: Set up custom error pages for 404 (Not Found) and 500 (Server Error) issues.
+
 # Django Tailwind Blog - A Developer Portfolio & Blog
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
