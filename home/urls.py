@@ -29,4 +29,9 @@ urlpatterns = [
     path('#contact', views.contact, name='contact'),
     #path('skills', views.skills, name='skills'),
     path('contact', views.contact, name='contact'),
+    path('experience/', views.experience_list, name='experience_list'), # new one to display experience_list dynamically
+    # path('experience', views.experience, name='experience'), old path (must hardcode experience_list.html)
+    path('experience/<int:skill_id>', views.skill_experience_view, name='experience_by_skill'),
+    path('skills/', views.skills_list, name='skills_list'),
+    path('skills/<int:skill_id>/', views.skill_experience_view, name='experience_by_skill'),
 ]

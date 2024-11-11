@@ -1,0 +1,79 @@
+<!-- experience_list.html -->
+{% extends "base.html" %}
+
+{% block title %}Experience{% endblock %}
+
+{% block content %}
+
+  <!-- Search Bar -->
+  <header class="experience-header">
+    <div class="container">
+      <input type="text" id="experienceSearch" class="form-control" placeholder="Search Experience">
+    </div>
+  </header>
+
+  <!-- Experience Section -->
+  <section id="full-experience" class="full-experience section-bg">
+    
+    <div class="container" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Full Experience</h2>
+        <p>Explore my complete set of projects and experience in various fields.</p>
+      </div>
+
+      <!-- Experience Grid
+      <div class="row experience-grid">
+        <div class="col-lg-4 col-md-6 experience-item">
+          <h4>Position 1</h4>
+          <p>Details about this experience, including accomplishments, skills applied, and outcomes.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 experience-item">
+          <h4>Position 2</h4>
+          <p>Details about this experience, including accomplishments, skills applied, and outcomes.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 experience-item">
+          <h4>Position 3</h4>
+          <p>Details about this experience, including accomplishments, skills applied, and outcomes.</p>
+        </div>
+
+        <-- Add more experience items as needed --
+        
+        <div class="col-lg-4 col-md-6 experience-item">
+          <h4>Position 4</h4>
+          <p>Details about this experience, including accomplishments, skills applied, and outcomes.</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 experience-item">
+          <h4>Position 5</h4>
+          <p>Details about this experience, including accomplishments, skills applied, and outcomes.</p>
+        </div>
+
+      </div> -->
+
+      <!-- Experience Grid -->
+      <div class="row experience-grid">
+        {% for experience in experiences %}
+          <div class="col-lg-4 col-md-6 experience-item">
+            <h4>{{ experience.title }}</h4>
+            <p>{{ experience.description }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Responsive Search Script -->
+  <script>
+    document.getElementById('experienceSearch').addEventListener('input', function () {
+      const searchTerm = this.value.toLowerCase()
+      document.querySelectorAll('.experience-item').forEach(item => {
+        const text = item.textContent.toLowerCase()
+        item.style.display = text.includes(searchTerm) ? '' : 'none'
+      })
+    })
+  </script>
+
+{% endblock %}
+

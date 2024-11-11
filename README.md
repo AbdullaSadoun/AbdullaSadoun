@@ -17,7 +17,11 @@ https://github.com/ashish-makes/django-tailwind-blog
 - Location: Halifax, NS (B3H1Y3) 
 - Phone: 902-266-9696 
 
-# To run
+## To run (new)
+1 - docker-compose run web python manage.py migrate
+2 - docker-compose up 
+
+## To run (old)
 1 - ensure django is in installed pip install django
 
 2 - ensure you are in the right directory: cd PORTFOLIOWEBAPP

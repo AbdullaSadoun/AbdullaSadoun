@@ -75,13 +75,39 @@ WSGI_APPLICATION = 'Django_Portfilio_AbdullaSadoun.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# DATABASES = { # og 
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase',
+        'USER': 'myuser',
+        'PASSWORD': 'mypassword',
+        'HOST': 'db',
+        'PORT': '5432',
     }
 }
 
+
+# new database for postgresql
+# instructions from video: https://www.youtube.com/watch?v=HEV1PWycOuQ
+# I tried usign railway, postgresql://postgres:FjFBLqbbpWSgmwNmUeIeCrSNgRwlukuZ@autorack.proxy.rlwy.net:59125/railway is the public url
+# and postgresql://postgres:FjFBLqbbpWSgmwNmUeIeCrSNgRwlukuZ@postgres.railway.internal:5432/railway is the internal url i guess
+# DATABASES = { 
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER': 'postgres',
+#         'PASSWORD': 'FjFBLqbbpWSgmwNmUeIeCrSNgRwlukuZ',
+#         'HOST': 'postgres.railway.internal',
+#         'PORT': '5432',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
