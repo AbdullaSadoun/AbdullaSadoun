@@ -7,11 +7,12 @@ I'm Abdulla, a passionate and dedicated software and systems engineer specializi
 - **Languages:** Proficient in C, C++, Python, Swift and MATLAB.
 - **Systems Programming:** Extensive experience in developing systems and solutions for various real life problems.
 - **Database Management:** Knowledgeable in SQL, MySQL, PostgreSQL, and MongoDB.
-- **Frameworks:** Experience with django flask.
-- **Machine Learning:** 
-- **Version Control:** Experienced with Git.
+- **Frameworks:** Experience with django, flask and rest api frameworks.
+- **Machine Learning:**  Experienced 
+- **Version Control:** Experienced with Git version control with remote repos (gitlab, github etc.).
 - **Operating Systems:** Well-versed in Windows, MacOS and Linux environments.
 - **Networking & Security:** Solid understanding of networking protocols and cybersecurity best practices.
+- **System Design:** Experienced in Creating System architecture managing multiple containerzied environments using kubernets and setting up data pipleines.
 
 ## 🛠 Projects
 Here are some of the projects I've worked on that demonstrate my skills and interests:
