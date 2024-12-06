@@ -1,126 +1,124 @@
 /workspaces/PortfolioWebApp/
 ├── README.md
-├── static/
-│   ├── assets/
-│   │   ├── css/
-│   │   │   └── style.css
-│   │   ├── img/
+├── assets/
+│   ├── css/
+│   │   └── style.css
+│   ├── img/
+│   │   ├── Qatar.jpg
+│   │   ├── apple-touch-icon.png
+│   │   ├── favicon.png
+│   │   ├── portfolio/
 │   │   │   ├── Qatar.jpg
-│   │   │   ├── apple-touch-icon.png
-│   │   │   ├── favicon.png
-│   │   │   ├── portfolio/
-│   │   │   │   ├── Qatar.jpg
-│   │   │   │   ├── lockheedAI.png
-│   │   │   │   ├── portfolio-1.jpg
-│   │   │   │   ├── portfolio-2.jpg
-│   │   │   │   ├── portfolio-3.jpg
-│   │   │   │   ├── portfolio-4.jpg
-│   │   │   │   ├── portfolio-5.jpg
-│   │   │   │   ├── portfolio-6.jpg
-│   │   │   │   ├── portfolio-7.jpg
-│   │   │   │   ├── portfolio-8.jpg
-│   │   │   │   ├── portfolio-9.jpg
-│   │   │   │   ├── portfolio-details-1.jpg
-│   │   │   │   ├── portfolio-details-2.jpg
-│   │   │   │   └── portfolio-details-3.jpg
-│   │   │   ├── profile-img.jpg
-│   │   │   └── testimonials/
-│   │   │       ├── testimonials-1.jpg
-│   │   │       ├── testimonials-2.jpg
-│   │   │       ├── testimonials-3.jpg
-│   │   │       ├── testimonials-4.jpg
-│   │   │       └── testimonials-5.jpg
-│   │   ├── js/
-│   │   │   └── main.js
-│   │   └── vendor/
-│   │       ├── aos/
-│   │       │   ├── aos.css
-│   │       │   └── aos.js
-│   │       ├── bootstrap/
-│   │       │   ├── css/
-│   │       │   │   ├── bootstrap-grid.css
-│   │       │   │   ├── bootstrap-grid.css.map
-│   │       │   │   ├── bootstrap-grid.min.css
-│   │       │   │   ├── bootstrap-grid.min.css.map
-│   │       │   │   ├── bootstrap-reboot.css
-│   │       │   │   ├── bootstrap-reboot.css.map
-│   │       │   │   ├── bootstrap-reboot.min.css
-│   │       │   │   ├── bootstrap-reboot.min.css.map
-│   │       │   │   ├── bootstrap.css
-│   │       │   │   ├── bootstrap.css.map
-│   │       │   │   ├── bootstrap.min.css
-│   │       │   │   └── bootstrap.min.css.map
-│   │       │   └── js/
-│   │       │       ├── bootstrap.bundle.js
-│   │       │       ├── bootstrap.bundle.js.map
-│   │       │       ├── bootstrap.bundle.min.js
-│   │       │       ├── bootstrap.bundle.min.js.map
-│   │       │       ├── bootstrap.js
-│   │       │       ├── bootstrap.js.map
-│   │       │       ├── bootstrap.min.js
-│   │       │       └── bootstrap.min.js.map
-│   │       ├── boxicons/
-│   │       │   ├── css/
-│   │       │   │   ├── animations.css
-│   │       │   │   ├── boxicons.css
-│   │       │   │   ├── boxicons.min.css
-│   │       │   │   └── transformations.css
-│   │       │   └── fonts/
-│   │       │       ├── boxicons.eot
-│   │       │       ├── boxicons.svg
-│   │       │       ├── boxicons.ttf
-│   │       │       ├── boxicons.woff
-│   │       │       └── boxicons.woff2
-│   │       ├── counterup/
-│   │       │   └── counterup.min.js
-│   │       ├── icofont/
-│   │       │   ├── fonts/
-│   │       │   │   ├── icofont.woff
-│   │       │   │   └── icofont.woff2
-│   │       │   └── icofont.min.css
-│   │       ├── isotope-layout/
-│   │       │   ├── isotope.pkgd.js
-│   │       │   └── isotope.pkgd.min.js
-│   │       ├── jquery/
-│   │       │   ├── jquery.min.js
-│   │       │   └── jquery.min.map
-│   │       ├── jquery.easing/
-│   │       │   └── jquery.easing.min.js
-│   │       ├── owl.carousel/
-│   │       │   ├── LICENSE
-│   │       │   ├── README.md
-│   │       │   ├── assets/
-│   │       │   │   ├── ajax-loader.gif
-│   │       │   │   ├── owl.carousel.css
-│   │       │   │   ├── owl.carousel.min.css
-│   │       │   │   ├── owl.theme.default.css
-│   │       │   │   ├── owl.theme.default.min.css
-│   │       │   │   ├── owl.theme.green.css
-│   │       │   │   ├── owl.theme.green.min.css
-│   │       │   │   └── owl.video.play.png
-│   │       │   ├── owl.carousel.js
-│   │       │   └── owl.carousel.min.js
-│   │       ├── php-email-form/
-│   │       │   └── validate.js
-│   │       ├── typed.js/
-│   │       │   ├── typed.js
-│   │       │   ├── typed.min.js
-│   │       │   └── typed.min.js.map
-│   │       ├── venobox/
-│   │       │   ├── venobox.css
-│   │       │   ├── venobox.js
-│   │       │   ├── venobox.min.css
-│   │       │   └── venobox.min.js
-│   │       └── waypoints/
-│   │           └── jquery.waypoints.min.js
-│   └── scss/
-│       └── Readme.txt
-└── templates/
-    ├── base.html
-    ├── experience_by_skill.html
-    ├── experience_list.html
-    ├── index.html
-    ├── ogindex.html
-    ├── portfolio-details-temp
-    ├── portfolio-details.html
-    └── skills_list.html
+│   │   │   ├── lockheedAI.png
+│   │   │   ├── portfolio-1.jpg
+│   │   │   ├── portfolio-2.jpg
+│   │   │   ├── portfolio-3.jpg
+│   │   │   ├── portfolio-4.jpg
+│   │   │   ├── portfolio-5.jpg
+│   │   │   ├── portfolio-6.jpg
+│   │   │   ├── portfolio-7.jpg
+│   │   │   ├── portfolio-8.jpg
+│   │   │   ├── portfolio-9.jpg
+│   │   │   ├── portfolio-details-1.jpg
+│   │   │   ├── portfolio-details-2.jpg
+│   │   │   └── portfolio-details-3.jpg
+│   │   ├── profile-img.jpg
+│   │   └── testimonials/
+│   │       ├── testimonials-1.jpg
+│   │       ├── testimonials-2.jpg
+│   │       ├── testimonials-3.jpg
+│   │       ├── testimonials-4.jpg
+│   │       └── testimonials-5.jpg
+│   ├── js/
+│   │   └── main.js
+│   └── vendor/
+│       ├── aos/
+│       │   ├── aos.css
+│       │   └── aos.js
+│       ├── bootstrap/
+│       │   ├── css/
+│       │   │   ├── bootstrap-grid.css
+│       │   │   ├── bootstrap-grid.css.map
+│       │   │   ├── bootstrap-grid.min.css
+│       │   │   ├── bootstrap-grid.min.css.map
+│       │   │   ├── bootstrap-reboot.css
+│       │   │   ├── bootstrap-reboot.css.map
+│       │   │   ├── bootstrap-reboot.min.css
+│       │   │   ├── bootstrap-reboot.min.css.map
+│       │   │   ├── bootstrap.css
+│       │   │   ├── bootstrap.css.map
+│       │   │   ├── bootstrap.min.css
+│       │   │   └── bootstrap.min.css.map
+│       │   └── js/
+│       │       ├── bootstrap.bundle.js
+│       │       ├── bootstrap.bundle.js.map
+│       │       ├── bootstrap.bundle.min.js
+│       │       ├── bootstrap.bundle.min.js.map
+│       │       ├── bootstrap.js
+│       │       ├── bootstrap.js.map
+│       │       ├── bootstrap.min.js
+│       │       └── bootstrap.min.js.map
+│       ├── boxicons/
+│       │   ├── css/
+│       │   │   ├── animations.css
+│       │   │   ├── boxicons.css
+│       │   │   ├── boxicons.min.css
+│       │   │   └── transformations.css
+│       │   └── fonts/
+│       │       ├── boxicons.eot
+│       │       ├── boxicons.svg
+│       │       ├── boxicons.ttf
+│       │       ├── boxicons.woff
+│       │       └── boxicons.woff2
+│       ├── counterup/
+│       │   └── counterup.min.js
+│       ├── icofont/
+│       │   ├── fonts/
+│       │   │   ├── icofont.woff
+│       │   │   └── icofont.woff2
+│       │   └── icofont.min.css
+│       ├── isotope-layout/
+│       │   ├── isotope.pkgd.js
+│       │   └── isotope.pkgd.min.js
+│       ├── jquery/
+│       │   ├── jquery.min.js
+│       │   └── jquery.min.map
+│       ├── jquery.easing/
+│       │   └── jquery.easing.min.js
+│       ├── owl.carousel/
+│       │   ├── LICENSE
+│       │   ├── README.md
+│       │   ├── assets/
+│       │   │   ├── ajax-loader.gif
+│       │   │   ├── owl.carousel.css
+│       │   │   ├── owl.carousel.min.css
+│       │   │   ├── owl.theme.default.css
+│       │   │   ├── owl.theme.default.min.css
+│       │   │   ├── owl.theme.green.css
+│       │   │   ├── owl.theme.green.min.css
+│       │   │   └── owl.video.play.png
+│       │   ├── owl.carousel.js
+│       │   └── owl.carousel.min.js
+│       ├── php-email-form/
+│       │   └── validate.js
+│       ├── typed.js/
+│       │   ├── typed.js
+│       │   ├── typed.min.js
+│       │   └── typed.min.js.map
+│       ├── venobox/
+│       │   ├── venobox.css
+│       │   ├── venobox.js
+│       │   ├── venobox.min.css
+│       │   └── venobox.min.js
+│       └── waypoints/
+│           └── jquery.waypoints.min.js
+├── base.html
+├── current-filetree.txt
+├── experience_by_skill.html
+├── experience_list.html
+├── index.html
+├── ogindex.html
+├── portfolio-details-temp
+├── portfolio-details.html
+├── skills_list.html
+└── static/

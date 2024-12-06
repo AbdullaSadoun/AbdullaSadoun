@@ -4,6 +4,11 @@ Portfolio Website
 ## Info
 This is a temporary static site hosted with github pages until final webapp is complete
 
+### To run (development)
+'''bash
+python -m http.server 8000
+'''
+
 ## Authors
 - [@Abdulla Sadoun](https://github.com/SadounAbdulla)
 
