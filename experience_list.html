@@ -15,7 +15,7 @@
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -32,13 +32,63 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
+
+  <!-- Add this CSS in the head section -->
+  <style>
+    .search-dark {
+      background-color: #444 !important;
+      color: white !important;
+      border: 1px solid #555 !important;
+    }
+    
+    .search-dark::placeholder {
+      color: #aaa !important;
+    }
+    
+    .search-dark:focus {
+      box-shadow: 0 0 0 0.2rem rgba(255,255,255,.25) !important;
+    }
+
+    .nav-btn {
+      padding: 8px 16px;
+      background: #444;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+    }
+
+    .nav-btn:hover {
+      background: #555;
+      color: white;
+      text-decoration: none;
+    }
+
+    .experience-header {
+      padding: 1rem 0;
+      background: #2d2d2d;
+    }
+  </style>
 </head>
 
 <body>
   <!-- Search Bar -->
   <header class="experience-header">
-    <div class="container">
-      <input type="text" id="experienceSearch" class="form-control" placeholder="Search Experience">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="d-flex gap-3 align-items-center">
+        <a href="index.html" class="nav-btn">
+          <i class="bx bx-home"></i> Home
+        </a>
+        <button id="darkModeToggle" class="nav-btn">
+          <i class="bx bx-moon"></i> Theme
+        </button>
+      </div>
+      <input type="text" id="experienceSearch" class="form-control search-dark" placeholder="Search Experience">
     </div>
   </header>
 
