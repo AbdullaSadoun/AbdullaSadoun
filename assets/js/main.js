@@ -188,4 +188,31 @@
     items: 1
   });
 
+  // Dark mode functionality
+  const initDarkMode = function() {
+    // Default to dark mode if preference not set
+    const isDarkMode = localStorage.getItem('darkMode') !== 'disabled';
+    const $body = $('body');
+    const $toggleButton = $('#darkModeToggle');
+
+    // Set initial state and localStorage
+    if (isDarkMode) {
+      $body.addClass('dark-mode');
+      localStorage.setItem('darkMode', 'enabled');
+    }
+
+    // Handle click events
+    $toggleButton.on('click', function() {
+      $body.toggleClass('dark-mode');
+      
+      // Store preference
+      localStorage.setItem('darkMode', 
+        $body.hasClass('dark-mode') ? 'enabled' : 'disabled'
+      );
+    });
+  };
+
+  // Initialize dark mode
+  initDarkMode();
+
 })(jQuery);

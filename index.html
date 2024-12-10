@@ -63,29 +63,6 @@
 
   </header><!-- End Header -->
 
-  <!-- DARKMODE SCRIPT-->
-  <script>
-    // Dark mode toggle functionality
-    const isDarkMode = localStorage.getItem('darkMode') === 'enabled';
-    const body = document.body;
-    const toggleButton = document.getElementById('darkModeToggle');
-  
-    if (isDarkMode) {
-      body.classList.add('dark-mode');
-    }
-  
-    toggleButton.addEventListener('click', function() {
-      body.classList.toggle('dark-mode');
-  
-      // Save the user's preference
-      if (body.classList.contains('dark-mode')) {
-        localStorage.setItem('darkMode', 'enabled');
-      } else {
-        localStorage.removeItem('darkMode');
-      }
-    });
-  </script>
-
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
@@ -374,8 +351,7 @@
       </div> <!-- ended main resume container -->
 
       <div class="text-center">
-        <a href="/experience" class="php-email-form btn-class">View more</a>
-
+        <a href="experience_list.html" class="php-email-form btn-class">View more</a>
       </div>
       
 
@@ -540,7 +516,12 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>
+            Offering a comprehensive range of technical solutions spanning software 
+            development, embedded systems, and machine learning applications. 
+            Specializing in turning complex technical challenges into efficient, 
+            scalable solutions.
+          </p>
         </div>
 
         <div class="row">
@@ -554,7 +535,7 @@
                 <i class="bx bxl-dribbble"></i>
               </div>
               <h4><a href="">Control System for Automation</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <p>Aid in development of automated control systems for Hardware (Real Time and embedded systems) as well as Software Solutions</p>
             </div>
           </div>
 
@@ -567,7 +548,9 @@
                 <i class="bx bx-file"></i>
               </div>
               <h4><a href="">AI Model Training and Deployment</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <p>
+                Design and implementation of ML models as well as integration in your organization's workflow.
+              </p>
             </div>
           </div>
 
@@ -580,7 +563,7 @@
                 <i class="bx bx-tachometer"></i>
               </div>
               <h4><a href="">Data Analysis and Visualization</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <p>Provide Comprehensive data analysis and analytics to aid in your decision making processes.</p>
             </div>
           </div>
 
@@ -593,7 +576,7 @@
                 <i class="bx bx-layer"></i>
               </div>
               <h4><a href="">System Architecture Design and Review</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <p>Design and review of system architectures, focusing on scalability, performance, and maintainability for your company's needs.</p>
             </div>
           </div>
 
@@ -606,7 +589,7 @@
                 <i class="bx bx-slideshow"></i>
               </div>
               <h4><a href="">Other Software Solutions</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <p>Custom software development services including web applications, automation tools, and specialized engineering solutions tailored to specific requirements.</p>
             </div>
           </div>
 
@@ -618,8 +601,8 @@
                 </svg>
                 <i class="bx bx-arch"></i>
               </div>
-              <h4><a href="">Divera Don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <h4><a href="">Technical Consultation</a></h4>
+              <p>Providing expert guidance on system design, technology selection, and implementation strategies for complex technical projects.</p>
             </div>
           </div>
 

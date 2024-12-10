@@ -1,12 +1,40 @@
-<!-- experience_list.html -->
-{% extends "base.html" %}
+<!DOCTYPE html>
 
-{% block title %}Experience{% endblock %}
-{% load static %}
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-{% block content %}
+  <title>Experience List</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- Force the hard-refresh for everyone-->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+</head>
+
+<body>
   <!-- Search Bar -->
   <header class="experience-header">
     <div class="container">
@@ -15,105 +43,88 @@
   </header>
 
   <!-- Experience Section -->
-  <section id="full-experience" class="ressume">
-    
+  <section id="full-experience" class="resume">
     <div class="container" data-aos="fade-up">
       <div class="section-title">
         <h2>Full Experience</h2>
         <p>Explore my complete set of projects and experience in various fields.</p>
       </div>
 
-
-
-
       <div class="row experience-grid">
-        {% for experience in experiences %}
-          <div class="resume-item">
-            <h4 class="resume-title" >{{ experience.title }}</h4>
-            <p>{{ experience.description }}</p>
+        
+        <!-- CPU Emulator Project -->
+        <div class="resume-item">
+          <h4 class="resume-title">CPU Emulator -XM23p</h4>
+          <p>Developed an emulator for the XM23p CPU, successfully emulating 300+ assembly codes based on Motorola's Harvard architecture.</p>
+          <ul>
+            <li>Gained expertise in Computer Organization,
+              Assembly Language, and CPU Architecture.</li>
+            <li>Implemented a 5-stage pipeline for the CPU.</li>
+            <li>Developed a GUI for the emulator using JavaFX.</li>
+          </ul>
+        </div>
 
-          </div>
-        {% endfor %}
+        <div class="resume-item">
+          <h4 class="resume-title">Software Developer Intern</h4>
+          <p>Worked as a software developer intern at a startup, developing a web application for managing customer data.</p>
+          <ul>
+            <li>Developed a web application using ReactJS and NodeJS.</li>
+            <li>Implemented a RESTful API for the application.</li>
+            <li>Worked with a team of 5 developers to deliver the project on time.</li>
+          </ul>
+        </div>
+
       </div>
-
-    </div>
   </section>
 
-<section id="resume" class="resume">
-  <div class="container" data-aos="fade-up">
-
-    <div class="section-title">
-      <h2>Resume</h2>
-      <p>Explore my complete set of projects and experience in various fields.</p>
+  <!-- ======= Footer ======= -->
+  <footer id="footer"> <!-- Start Footer  -->
+    <div class="container">
+      <h3>Abdulla Sadoun</h3>
+      <p>Turning complex challenges into elegant solutions, one project at a time.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/abdullasadoun/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.github.com/AbdullaSadoun" class="linkedin"><i class="bx bxl-github"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
     </div>
+  </footer><!-- End Footer -->
 
-    <div class="row">
-      <div class="col-lg-6"> <!-- col 1 -->
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
 
-        {% for experience in experiences %}
-        <div class="resume-item"> <!-- Exp0 -->
-          <h4>{{ experience.title }}</h4>
-          <ul>
-            <li>{{ experience.description }}</li>
-          </ul>
-        </div> <!-- End Exp0 -->
-        {% endfor %}
-
-      </div> <!-- End col 2 -->
-    </div> <!-- ended row  -->
-  </div> <!-- ended main resume container -->
-
-    <div class="text-center">
-      <a href="/experience" class="php-email-form btn-class">View more</a>
-
-    </div>
-</section><!-- End Resume Section -->
-
-
-<section id="resume" class="resume"> <!-- another resume section trial. -->
-  <div class="container" data-aos="fade-up">
-    <div class="section-title">
-      <h2>Resume</h2>
-      <p>Explore my complete set of projects and experience in various fields.</p>
-    </div>
-
-    <div class="row">
-      {% with total=experiences|length %}
-      {% for experience in experiences %}
-        {% if forloop.first or forloop.counter0|divisibleby:3 %}
-        <div class="col-lg-4 col-md-6"> <!-- Start new column every 3 items -->
-        {% endif %}
-          
-          <div class="resume-item">
-            <h4>{{ experience.title }}</h4>
-            <ul>
-              <li>{{ experience.description }}</li>
-            </ul>
-          </div>
-
-        {% if forloop.counter|divisibleby:3 or forloop.last %}
-        </div> <!-- End column -->
-        {% endif %}
-      {% endfor %}
-      {% endwith %}
-    </div> <!-- end row -->
-
-    <div class="text-center">
-      <a href="/experience" class="php-email-form btn-class">View more</a>
-    </div>
-  </div>
-</section>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
   <!-- Responsive Search Script -->
   <script>
     document.getElementById('experienceSearch').addEventListener('input', function () {
       const searchTerm = this.value.toLowerCase()
-      document.querySelectorAll('.experience-item').forEach(item => {
+      document.querySelectorAll('.ex      ce-item').forEach(item => {
         const text = item.textContent.toLowerCase()
         item.style.display = text.includes(searchTerm) ? '' : 'none'
       })
     })
   </script>
 
-{% endblock %}
+</body>
 
+</html>
