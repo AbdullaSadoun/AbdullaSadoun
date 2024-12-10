@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 992px) {
   #header {
     width: 300px;
-    background: #fff;
+    background: #6e6259;
     border-right: 1px solid #e6e9ec;
     left: -300px;
   }
@@ -380,7 +380,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #728394;
+  color: #6e6259;
 }
 
 .about .content ul {
@@ -505,7 +505,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  /* background: #f7f8f9; */
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -1249,7 +1249,7 @@ body.dark-mode #footer .social-links a:hover {
 /* Dark mode for resume items */
 body.dark-mode .resume .resume-item h5 {
   /* background: #333;  Darker background for dark mode */
-  background: #070809;  /* Darker background for dark mode */
+  /*background: #070809;  / Darker background for dark mode */
   color: #e0e0e0;    /* Light text color */
 }
 
