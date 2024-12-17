@@ -1299,4 +1299,26 @@ body.dark-mode .contact .php-email-form {
 /* make the front page (my name have 45505b) on the phone */ 
 
 
+/* Add this to your existing CSS */
+.contact-card {
+  text-align: center;
+  margin: 20px 0;
+}
 
+.contact-card img {
+  max-width: 150px;  /* Adjust this value to control QR size */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.contact-card img:hover {
+  transform: scale(1.1);
+}
+
+.contact-card p {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
