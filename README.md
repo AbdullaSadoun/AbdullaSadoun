@@ -30,32 +30,21 @@ Here are some of the projects I've worked on that demonstrate my skills and inte
 
 ## 📫 How to reach me
 - LinkedIn: www.linkedin.com/in/abdullasadoun
+- Email: Abdulla@asadoun.com
 - Email: Abdulla.Sadoun@dal.ca
-
-Feel free to check out my repositories and don't hesitate to reach out if you have any questions or collaboration ideas!
-
-
-
-# PortfolioWebApp
-Portfolio Website
-
-## Info
-This is a temporary static site hosted with github pages until final webapp is complete
-
-### To run (development)
-'''bash
-python -m http.server 8000
-'''
-
-## Authors
-- [@Abdulla Sadoun](https://github.com/SadounAbdulla)
-
-### Reach me @
-- LinkedIn: www.linkedin.com/in/abdullasadoun
-- Email: Abdulla.Sadoun@dal.ca
-- LEETCODE!!!! https://leetcode.com/AbdullaSa/
 - Phone: 902-266-9696 (Halifax, NS, Canada)
 - Phone: +974 3367 0610 (Doha, Qatar)
 
-## Other Links
+Feel free to check out my repositories and don't hesitate to reach out if you have any questions or ideas!
+
+## Other 
+### Authors
+- [@Abdulla Sadoun](https://github.com/AbdullaSadoun) 
+
+### QR-Code-Site
 - bio.site/abdullasadoun
+
+### To run static site
+'''bash
+python -m http.server 8000
+'''
