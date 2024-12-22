@@ -25,7 +25,8 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
           className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
         >
-          Turning Vision Into Reality
+          {/* Turning Vision Into Reality */}
+          Bringing Your Ideas To Life
         </motion.h1>
         
         <motion.p
@@ -34,7 +35,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto"
         >
-          Full-stack developer crafting elegant solutions to complex problems
+          Abdulla Sadoun, B.Eng
         </motion.p>
         
         <motion.div

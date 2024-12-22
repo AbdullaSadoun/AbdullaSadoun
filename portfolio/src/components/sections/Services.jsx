@@ -1,31 +1,32 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FaCode, FaServer, FaMobile, FaDesktop } from 'react-icons/fa'
+import { FaCode, FaServer, FaMobile, FaDesktop, FaBrain } from 'react-icons/fa'
 
 const services = [
   {
     icon: <FaCode className="w-8 h-8" />,
-    title: "Web Development",
-    description: "Building responsive and performant web applications using modern frameworks and best practices.",
-    technologies: ["React", "Next.js", "Vue", "Angular"]
+    icon: <FaBrain className="w-8 h-8" />,
+    title: "AI/ML Engineering & MLOps",
+    description: "Streamline your AI operations with scalable ML model deployment and integration. Proven to reduce analysis time by 80% through efficient cloud-native architecture.",
+    technologies: ["AI", "Machine Learning", "Cloud", "Angular"]
   },
   {
     icon: <FaServer className="w-8 h-8" />,
-    title: "Backend Development",
-    description: "Creating robust and scalable server-side solutions with modern technologies.",
-    technologies: ["Node.js", "Python", "Java", "PostgreSQL"]
+    title: "System Architecture & Cloud Solutions",
+    description: "Design and implement scalable, cloud-native systems with microservices architecture. Focused on performance, reliability, and future-proof solutions.",
+    technologies: ["Web", "Python", "Cloud", "PostgreSQL"]
   },
   {
     icon: <FaMobile className="w-8 h-8" />,
-    title: "Mobile Development",
-    description: "Developing cross-platform mobile applications with native performance.",
-    technologies: ["React Native", "Flutter", "iOS", "Android"]
+    title: "Embedded Systems & Robotics Engineering",
+    description: "Award-winning experience in autonomous systems and real-time control. Transforming hardware innovations from concept to deployment with proven efficiency.",
+    technologies: ["Real Time Systems", "ROS2", "RTOS", "C/C++"]
   },
   {
     icon: <FaDesktop className="w-8 h-8" />,
-    title: "Desktop Applications",
-    description: "Creating powerful desktop applications for multiple platforms.",
-    technologies: ["Electron", "Python", "C++", "Java"]
+    title: "Data Engineering & Analytics Solutions",
+    description: "Convert complex datasets into actionable insights. Expert in building efficient data pipelines and predictive models that drive informed decision-making.",
+    technologies: ["Data Analytics", "Data Analysis", "Data Driven Decisions", ""]
   }
 ]
 

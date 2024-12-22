@@ -4,9 +4,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear()
   
   const socialLinks = [
-    { name: 'GitHub', url: 'https://github.com/yourusername' },
-    { name: 'LinkedIn', url: 'https://linkedin.com/in/yourusername' },
-    { name: 'Twitter', url: 'https://twitter.com/yourusername' }
+    { name: 'GitHub', url: 'https://github.com/AbdullaSadoun' },
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/abdullasadoun' },
+    { name: 'Twitter', url: 'https://x.com/Sxdoun' }
   ]
 
   return (
@@ -15,9 +15,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand Section */}
           <div>
-            <h3 className="text-2xl font-bold text-accent mb-4">Your Name</h3>
+            <h3 className="text-2xl font-bold text-accent mb-4">Abdulla Sadoun</h3>
             <p className="text-gray-400">
-              Building digital experiences with modern web technologies.
+            Turning complex challenges into elegant solutions, one project at a time.
             </p>
           </div>
 
@@ -61,7 +61,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-800">
           <p className="text-center text-gray-400">
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} Abdulla Sadoun. All rights reserved.
           </p>
         </div>
       </div>

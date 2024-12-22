@@ -40,7 +40,7 @@ const Contact = () => {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind? Let's discuss how we can work together.
+            Have a project or idea? Let's discuss how we can work together.
           </p>
         </motion.div>
 
@@ -55,15 +55,15 @@ const Contact = () => {
             <div className="space-y-4">
               <p className="flex items-center text-gray-400">
                 <span className="mr-2">📍</span>
-                San Francisco, CA
+                Halifax, NS
               </p>
               <p className="flex items-center text-gray-400">
                 <span className="mr-2">📧</span>
-                hello@example.com
+                abdulla@asadoun.com
               </p>
               <p className="flex items-center text-gray-400">
                 <span className="mr-2">📱</span>
-                +1 (555) 123-4567
+                +1 (902) 266-9696
               </p>
             </div>
           </motion.div>

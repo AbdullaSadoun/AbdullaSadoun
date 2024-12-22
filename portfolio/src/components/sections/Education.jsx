@@ -3,9 +3,9 @@ import { useInView } from 'react-intersection-observer'
 
 const education = [
   {
-    institution: "Stanford University",
-    degree: "Master of Computer Science",
-    period: "2018 - 2020",
+    institution: "Dalhousie University",
+    degree: "Bachelor's of Engineering, Computer and Electrical Engineering",
+    period: "2021 - 2025",
     logo: "/logos/stanford.png", // Add your logo
     description: "Specialized in Artificial Intelligence and Machine Learning",
     certificates: [
