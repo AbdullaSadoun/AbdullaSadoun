@@ -13,6 +13,7 @@ import Education from './components/sections/Education'
 import Services from './components/sections/Services'
 import Contact from './components/sections/Contact'
 import Footer from './components/layout/Footer'
+import AllProjects from './pages/AllProjects'
 
 function AppContent() {
   const [isLoading, setIsLoading] = useState(true)
@@ -51,6 +52,13 @@ function AppContent() {
               </main>
               <Footer />
             </div>
+          </>
+        } />
+        <Route path="/all-projects" element={
+          <>
+            <Navbar />
+            <AllProjects />
+            <Footer />
           </>
         } />
         <Route 

@@ -81,6 +81,36 @@ const Projects = () => {
             </Link>
           ))}
         </div>
+
+        <motion.div 
+          className="flex justify-center mt-12"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          <Link
+            to="/all-projects"
+            className="px-6 py-3 bg-[#e6e6e6] text-[#051d40] rounded-lg
+                     hover:bg-opacity-90 transition-all duration-300
+                     font-semibold shadow-lg hover:shadow-xl
+                     flex items-center gap-2"
+          >
+            <span>View More</span>
+            <svg 
+              className="w-5 h-5" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth={2} 
+                d="M13 7l5 5m0 0l-5 5m5-5H6"
+              />
+            </svg>
+          </Link>
+        </motion.div>
       </div>
     </section>
   )

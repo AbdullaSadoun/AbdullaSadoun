@@ -3,25 +3,25 @@ import { useInView } from 'react-intersection-observer'
 
 const experiences = [
   {
-    title: "Senior Frontend Developer",
-    company: "Tech Corp",
-    period: "2021 - Present",
-    description: "Led development of modern web applications using React, Next.js, and TypeScript. Implemented responsive designs and optimized performance.",
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+    title: "AI Engineer/DevOps (Capstone)",
+    company: "Lockheed Martin",
+    period: "2024 - Present",
+    description: "Developed, integrated and Deployed an AI model and application based on client requirements.",
+    skills: ["ML", "NLP", "LLM", "Model Training", "Microservice Arch.", "CI/CD", "Cloud Orchestration"]
   },
   {
-    title: "Full Stack Developer",
-    company: "Digital Solutions",
-    period: "2019 - 2021",
-    description: "Developed full-stack applications using MERN stack. Collaborated with design team to implement pixel-perfect UI/UX.",
-    skills: ["MongoDB", "Express.js", "React", "Node.js"]
+    title: "Project Coordinator",
+    company: "ELFATIH",
+    period: "2024 - Present",
+    description: "Managed Operating Costs, Client Relations, External Communication and Various Property Managment Projects. Currently Develpoing Software solutions to fascilitate growth.",
+    skills: ["Cost Analysis", "Project Planning", "App Development", "Solution Architect"]
   },
   {
-    title: "Frontend Developer",
-    company: "Web Innovators",
-    period: "2017 - 2019",
-    description: "Created responsive web applications and maintained existing client websites. Implemented modern CSS practices and animations.",
-    skills: ["JavaScript", "HTML5", "CSS3", "jQuery"]
+    title: "Electrical Engineer Intern",
+    company: "Al Dar",
+    period: "2022",
+    description: "Participated in the construction of CAE's Boeing 777 simulator (CAE 7000XR) housings at HIA for Qatar Airways with AL Dar Consulting.",
+    skills: ["Project Delivery", "Construction Safety", "Report Writing", "Site Inspection"]
   }
 ]
 
@@ -63,9 +63,9 @@ const Experience = () => {
           className="space-y-12"
         >
           <div className="text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Professional Experience</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Experience</h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              A timeline of my professional journey and the skills I've acquired along the way.
+              A timeline of my journey and the skills I've acquired along the way.
             </p>
           </div>
 
@@ -98,6 +98,36 @@ const Experience = () => {
           </div>
         </motion.div>
       </div>
+      <motion.div 
+        className="flex justify-center mt-12"
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
+        <a
+          href="assets/Abdulla_Sadoun.pdf" // Replace with actual path to your PDF
+          download="Abdulla_Sadoun.pdf"   // Replace with desired download filename
+          className="px-6 py-3 bg-[#e6e6e6] text-[#051d40] rounded-lg
+                     hover:bg-opacity-90 transition-all duration-300
+                     font-semibold shadow-lg hover:shadow-xl
+                     flex items-center gap-2"
+        >
+          <svg 
+            className="w-5 h-5" 
+            fill="none" 
+            stroke="currentColor" 
+            viewBox="0 0 24 24"
+          >
+            <path 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              strokeWidth={2} 
+              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" 
+            />
+          </svg>
+          Download Resume
+        </a>
+      </motion.div>
     </section>
   )
 }
