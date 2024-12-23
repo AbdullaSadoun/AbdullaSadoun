@@ -1,6 +1,4 @@
 AI/ML Engineering & MLOps
-
-
 Combines your Lockheed Martin experience with ML model deployment
 Showcases your work with Docker, microservices, and cloud infrastructure
 Highlights your 80% efficiency improvement achievement
@@ -9,8 +7,6 @@ High market demand and typically commands premium rates
 
 
 Embedded Systems & Robotics Engineering
-
-
 Leverages your significant experience with CPU emulation, robotics
 Showcases your award-winning self-navigating robot project
 Demonstrates low-level programming expertise (C, Assembly, hardware)
@@ -19,8 +15,6 @@ More specialized skillset than general web development
 
 
 Data Engineering & Analytics Solutions
-
-
 Encompasses your flight delay analysis and various data projects
 Shows your experience with large datasets (100,000+ records)
 Demonstrates practical business impact
@@ -29,8 +23,6 @@ High demand across industries
 
 
 System Architecture & Cloud Solutions
-
-
 Showcases your microservices and distributed systems experience
 Highlights your work with Docker, AWS, and scalable architectures
 Demonstrates both technical and architectural thinking
@@ -38,7 +30,6 @@ Shows ability to handle complex system design
 Very valuable to enterprises and startups alike
 
 Rationale:
-
 These services cover the full stack from hardware to cloud
 Each demonstrates concrete achievements and metrics
 They showcase both depth (embedded systems) and breadth (system architecture)
