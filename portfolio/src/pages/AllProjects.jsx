@@ -29,7 +29,8 @@ const AllProjects = () => {
             >
               <div className="relative aspect-video">
                 <img
-                  src={project.image}
+                  // src={project.image}
+                  src={project.images[0]?.url || '/placeholder-image.jpg'}
                   alt={project.title}
                   className="object-cover w-full h-full"
                 />

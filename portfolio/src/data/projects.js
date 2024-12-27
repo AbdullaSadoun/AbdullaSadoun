@@ -1,6 +1,7 @@
 export const projects = [
   { // sample project from template
     id: 1,
+    featured: true,
     slug: "e-commerce-platform",
     title: "E-Commerce Platform",
     description: "A full-stack e-commerce solution with real-time inventory management",
@@ -52,19 +53,20 @@ export const projects = [
 
   { // milton ai project
     id: 2,
+    featured: true,
     slug: "lm-milton",
     title: "Lockheed Martin's AI",
     description: "An AI model and interface to aid in analyzing the clients training needs.",
     images: [
       {
         id: 1,
-        url: "projects/project2/milton-dashboard.png", 
+        url: "projects/lm-milton/milton-dashboard.png", 
         alt: "LM AI Dashboard",
         isMain: true
       },
       {
         id: 2,
-        url: "/projects/ecommerce-products.jpg",
+        url: "/projects/lm-milton/main.png",
         alt: "Products Page",
         isMain: false
       },
@@ -103,13 +105,14 @@ export const projects = [
 
   { // cpu emulator project
     id: 3,
+    featured: false,
     slug: "cpu-emulator-xm23p",
     title: "CPU Emulator - XM23P",
     description: "A CPU emulator for the XM23P processor, demonstrating low-level system architecture and instruction set implementation.",
     images: [
       {
         id: 1,
-        url: "projects/cpu-emulator/main.png",
+        url: "projects/cpu-emulator/main.jpg",
         alt: "CPU Emulator Interface",
         isMain: true
       }
@@ -139,6 +142,7 @@ export const projects = [
 
   { // self navigating robot lead project
     id: 4,
+    featured: false,
     slug: "self-navigating-robot-lead",
     title: "Self Navigating Robot - LEAD",
     description: "An autonomous robot system capable of self-navigation and environmental mapping.",
@@ -176,6 +180,7 @@ export const projects = [
 
   { // flight delay analysis project
     id: 5,
+    featured: false,
     slug: "flight-delay-analysis",
     title: "Flight Delay Analysis",
     description: "A comprehensive analysis system for predicting and analyzing flight delays using machine learning.",
@@ -213,6 +218,7 @@ export const projects = [
 
   { // autonomous self driving vehicle simulation project
     id: 6,
+    featured: false,
     slug: "autonomous-vehicle-simulation",
     title: "Autonomous Self Driving Vehicle Simulation",
     description: "A sophisticated simulation environment for testing autonomous vehicle algorithms and behaviors.",
@@ -250,6 +256,7 @@ export const projects = [
 
   { // underwater monitoring real time data analysis project
     id: 7,
+    featured: false,
     slug: "underwater-monitoring",
     title: "Underwater Monitoring Real Time Data Analysis",
     description: "Real-time analysis system for underwater sensor networks monitoring marine environments.",
@@ -287,6 +294,7 @@ export const projects = [
 
   { // cyber security analysis project
     id: 8,
+    featured: false,
     slug: "cyber-security-analysis",
     title: "Cyber Security Attacks Analysis Project",
     description: "Advanced security analysis platform for detecting and preventing cyber attacks.",
@@ -324,6 +332,7 @@ export const projects = [
 
   { // aircraft health monitoring and predictive maintenance project
     id: 9,
+    featured: false,
     slug: "aircraft-health-monitoring",
     title: "Aircraft Health Monitoring and Predictive Maintenance",
     description: "Predictive maintenance system for aircraft using IoT sensors and machine learning.",
