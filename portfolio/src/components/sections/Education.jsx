@@ -6,7 +6,7 @@ const education = [
     institution: "Dalhousie University",
     degree: "Bachelor's of Engineering, Computer and Electrical Engineering",
     period: "2021 - 2025",
-    logo: "/logos/stanford.png", // Add your logo
+    logo: "/logos/dal-logo.jpg", // Add your logo
     description: "Specialized in Artificial Intelligence and Machine Learning",
     certificates: [
       {
