@@ -1,7 +1,7 @@
 export const projects = [
   { // sample project from template
     id: 1,
-    featured: true,
+    featured: false,
     slug: "e-commerce-platform",
     title: "E-Commerce Platform",
     description: "A full-stack e-commerce solution with real-time inventory management",
@@ -105,7 +105,7 @@ export const projects = [
 
   { // cpu emulator project
     id: 3,
-    featured: false,
+    featured: true,
     slug: "cpu-emulator-xm23p",
     title: "CPU Emulator - XM23P",
     description: "A CPU emulator for the XM23P processor, demonstrating low-level system architecture and instruction set implementation.",
@@ -142,7 +142,7 @@ export const projects = [
 
   { // self navigating robot lead project
     id: 4,
-    featured: false,
+    featured: true,
     slug: "self-navigating-robot-lead",
     title: "Self Navigating Robot - LEAD",
     description: "An autonomous robot system capable of self-navigation and environmental mapping.",
