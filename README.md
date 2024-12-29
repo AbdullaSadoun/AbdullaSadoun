@@ -327,3 +327,10 @@ Highlights: Subtle gradients with opacity
     results: "" 
 } 
 
+# Deploying the website
+updated the vite.config, deploy (actions), and package.json files.
+
+installed gh-pages with "npm install gh-pages --save-dev"
+
+pushed the react app.
+
