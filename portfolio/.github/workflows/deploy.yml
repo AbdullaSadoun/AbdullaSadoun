@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - React-app  # or your default branch
+      - React-app  # Changed to match your development branch
 
 jobs:
   build-and-deploy:
