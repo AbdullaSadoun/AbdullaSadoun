@@ -4,6 +4,7 @@ import { useInView } from 'react-intersection-observer'
 const education = [
   {
     institution: "Dalhousie University",
+    website: "https://www.dal.ca",
     degree: "Bachelor's of Engineering, Computer and Electrical Engineering",
     period: "2021 - 2025",
     logo: "/logos/dal-logo.jpg", // Add your logo
@@ -50,15 +51,27 @@ const Education = () => {
               className="bg-secondary/20 rounded-lg p-6 hover:bg-secondary/30 transition-colors"
             >
               <div className="flex items-center gap-6">
-                <div className="w-16 h-16 flex-shrink-0">
+                <a
+                  href={edu.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-16 h-16 flex-shrink-0 hover:opacity-80 transition-opacity"
+                >
                   <img
                     src={edu.logo}
                     alt={edu.institution}
                     className="w-full h-full object-contain"
                   />
-                </div>
+                </a>
                 <div>
-                  <h3 className="text-xl font-bold text-accent">{edu.institution}</h3>
+                  <a
+                    href={edu.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-accent transition-colors"
+                  >
+                    <h3 className="text-xl font-bold text-accent">{edu.institution}</h3>
+                  </a>
                   <p className="text-lg text-gray-300">{edu.degree}</p>
                   <p className="text-sm text-gray-400">{edu.period}</p>
                 </div>
@@ -103,4 +116,4 @@ const Education = () => {
   )
 }
 
-export default Education 
+export default Education
