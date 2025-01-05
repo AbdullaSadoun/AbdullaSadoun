@@ -5,6 +5,7 @@ const experiences = [
   {
     title: "AI Engineer/DevOps (Capstone)",
     company: "Lockheed Martin",
+    companyUrl: "https://www.lockheedmartin.com",
     period: "2024 - Present",
     description: "Developed, integrated and Deployed an AI model and application based on client requirements.",
     skills: ["ML", "NLP", "LLM", "Model Training", "Microservice Arch.", "CI/CD", "Cloud Orchestration"]
@@ -12,6 +13,7 @@ const experiences = [
   {
     title: "Project Coordinator",
     company: "ELFATIH",
+    companyUrl: "https://elfatih.ca",
     period: "2024 - Present",
     description: "Managed Operating Costs, Client Relations, External Communication and Various Property Managment Projects. Currently Develpoing Software solutions to fascilitate growth.",
     skills: ["Cost Analysis", "Project Planning", "App Development", "Solution Architect"]
@@ -19,6 +21,7 @@ const experiences = [
   {
     title: "Electrical Engineer Intern",
     company: "Al Dar",
+    companyUrl: "https://www.dar.com",
     period: "2022",
     description: "Participated in the construction of CAE's Boeing 777 simulator (CAE 7000XR) housings at HIA for Qatar Airways with AL Dar Consulting.",
     skills: ["Project Delivery", "Construction Safety", "Report Writing", "Site Inspection"]
@@ -79,7 +82,14 @@ const Experience = () => {
                 <div className="absolute w-4 h-4 bg-accent rounded-full -left-[9px] top-0" />
                 <div className="bg-secondary/20 rounded-lg p-6 hover:bg-secondary/30 transition-colors">
                   <h3 className="text-xl font-bold text-accent">{exp.title}</h3>
-                  <p className="text-lg text-gray-300 mt-1">{exp.company}</p>
+                  <a 
+                    href={exp.companyUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg text-gray-300 mt-1 hover:text-accent transition-colors inline-block"
+                  >
+                    {exp.company}
+                  </a>
                   <p className="text-sm text-gray-400 mt-1">{exp.period}</p>
                   <p className="mt-4">{exp.description}</p>
                   <div className="mt-4 flex flex-wrap gap-2">
@@ -132,4 +142,4 @@ const Experience = () => {
   )
 }
 
-export default Experience 
+export default Experience

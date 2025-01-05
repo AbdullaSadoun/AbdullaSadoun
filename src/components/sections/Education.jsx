@@ -16,6 +16,20 @@ const education = [
       }
     ]
   },
+  {
+    institution: "Amazon Web Services",
+    website: "https://www.aws.com",
+    degree: "Certified Cloud Practitioner",
+    period: "2025",
+    logo: "/logos/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png", // Add your logo
+    description: "Specialized in Artificial Intelligence and Machine Learning",
+    certificates: [
+      {
+        name: "Advanced Machine Learning",
+        pdf: "/certificates/ml-cert.pdf" // Add your PDF
+      }
+    ]
+  },
   // Add more education entries...
 ]
 
