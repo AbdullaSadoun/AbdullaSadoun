@@ -336,3 +336,8 @@ pushed the react app.
 
 npm run build
 npm run deploy
+
+# next steps:
+edit the projects
+finish up the email sending feature
+make the contact form work. 
