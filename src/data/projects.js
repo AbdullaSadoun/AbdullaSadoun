@@ -29,15 +29,16 @@ export const projects = [
     tags: ["React", "Node.js", "MongoDB", "Redux"],
     demoLink: "https://demo.example.com",
     githubLink: "https://github.com/yourusername/project",
-    overview: "A comprehensive e-commerce platform built with modern technologies, focusing on real-time inventory management and seamless user experience.",
-    challenge: "The main challenge was implementing real-time inventory tracking while handling high concurrent user transactions.",
-    solution: "Implemented WebSocket connections for real-time updates and utilized Redis for caching frequently accessed data.",
+    overview: "MILTON is an AI-powered tool designed to automate training needs analysis by extracting and scoring Knowledge, Skills, and Attitude (KSA) statements from technical documents. It integrates machine learning models with a scalable microservices architecture to process and evaluate training requirements efficiently.",
+    challenge: "The existing MILTON system faced several challenges: Low accuracy of extracted KSA statements (only 30% met quality standards). Limited ability to process multiple documents or extract multiple KSAs per paragraph. Bias in the DIF (Difficulty, Importance, Frequency) scoring model. Lack of configurability and scalability in training prioritization.",
+    solution: "Enhanced KSA Extraction: Implemented advanced NLP techniques using Spacy, BERT, and RoBERTa to improve extraction accuracy. Scalable Microservices Architecture: Developed cloud-native, containerized services using Django, FastAPI, and Docker Compose for modularity. Real-time Processing & Caching: Integrated Redis for fast data retrieval and Traefik for optimized API traffic routing. Custom DIF Scoring Model: Introduced role-based scoring and eliminated biases through refined weight balancing. User Feedback Loop: Implemented feedback-driven model updates, allowing continuous improvement of extracted KSAs.",
     features: [
-      "Real-time inventory tracking",
-      "Secure payment processing",
-      "Advanced search and filtering",
-      "Admin dashboard with analytics",
-      "Mobile-responsive design"
+      "🚀 AI-Driven KSA Mining – Extracts training statements from technical manuals.",
+      "🎯 DIF Scoring Algorithm – Prioritizes training needs based on difficulty, importance, and frequency.",
+      "🔗 Microservices Integration – Cloud-based, scalable, and containerized services.",
+      "📊 Performance Analytics – Tracks model accuracy with precision-recall metrics.",
+      "🛠 User Feedback System – Allows human-in-the-loop adjustments for model refinement.",
+      "📂 Secure Data Storage – Uses PostgreSQL for structured data management."
     ],
     technologies: [
       "React",
@@ -48,7 +49,8 @@ export const projects = [
       "Redis",
       "Stripe"
     ],
-    results: "The platform achieved a 40% increase in sales conversion and reduced inventory discrepancies by 95%."
+    results: "Increased Extraction Accuracy: Raised KSA statement quality from 30% to over 75% for certain domains. Improved Model Efficiency: Optimized DIF scoring time and reduced computational load. Better Training Decision-Making: Enabled role-based DIF scoring to eliminate bias. Seamless Deployment: Achieved a fully containerized, easily deployable system. Architecture Diagrams (Placeholder for architecture diagrams - System Flow, API Structure, ML Pipeline, and Data Flow)."
+    //Future: "Future enhancements include integrating a recommendation engine for personalized training plans and expanding the platform to support multiple languages and document formats. 🏗 CI/CD Pipelines – Automate deployment and testing. 🎛 Checkpoints for DIF Scorer – Enable model state saving/import. 🔄 User Accounts & Data Persistence – Allow saving of generated KSAs and feedback history. 🌐 React Frontend Integration – Improve user experience and accessibility. 🚀 Kubernetes Orchestration – Scale and manage microservices efficiently"
   },
 
   { // milton ai project
@@ -87,26 +89,40 @@ export const projects = [
     tags: ["AI", "ML", "NLP", "LLM", "Cloud", "Model Training"],
     // demoLink: "https://demo.example.com",
     // githubLink: "https://github.com/yourusername/project",
-    overview: "A comprehensive e-commerce platform built with modern technologies, focusing on real-time inventory management and seamless user experience.",
-    challenge: "The main challenge was implementing real-time inventory tracking while handling high concurrent user transactions.",
-    solution: "Implemented WebSocket connections for real-time updates and utilized Redis for caching frequently accessed data.",
+    overview: "MILTON is an AI-powered tool designed to automate training needs analysis by extracting and scoring Knowledge, Skills, and Attitude (KSA) statements from technical documents. It integrates machine learning models with a scalable microservices architecture to process and evaluate training requirements efficiently.",
+    challenge: "The existing MILTON system faced several challenges: Low accuracy of extracted KSA statements (only 30% met quality standards). Limited ability to process multiple documents or extract multiple KSAs per paragraph. Bias in the DIF (Difficulty, Importance, Frequency) scoring model. Lack of configurability and scalability in training prioritization.",
+    solution: "Enhanced KSA Extraction: Implemented advanced NLP techniques using Spacy, BERT, and RoBERTa to improve extraction accuracy. Scalable Microservices Architecture: Developed cloud-native, containerized services using Django, FastAPI, and Docker Compose for modularity. Real-time Processing & Caching: Integrated Redis for fast data retrieval and Traefik for optimized API traffic routing. Custom DIF Scoring Model: Introduced role-based scoring and eliminated biases through refined weight balancing. User Feedback Loop: Implemented feedback-driven model updates, allowing continuous improvement of extracted KSAs.",
     features: [
-      "Real-time inventory tracking",
-      "Secure payment processing",
-      "Advanced search and filtering",
-      "Admin dashboard with analytics",
-      "Mobile-responsive design"
+      "🚀 AI-Driven KSA Mining: Extracts training statements from technical manuals.",
+      "🎯 DIF Scoring Algorithm: Prioritizes training needs based on difficulty, importance, and frequency.",
+      "🔗 Microservices Integration: Cloud-based, scalable, and containerized services.",
+      "📊 Performance Analytics: Tracks model accuracy with precision-recall metrics.",
+      "🛠 User Feedback System: Allows human-in-the-loop adjustments for model refinement.",
+      "📂 Secure Data Storage: Uses PostgreSQL for structured data management."
     ],
-    technologies: [
+    technologies: [ 
       "React",
       "Node.js",
       "MongoDB",
       "Redux",
       "WebSocket",
       "Redis",
-      "Stripe"
+      "Stripe",
+      "Django",
+      "FastAPI",
+      "PostgreSQL",
+      "Gunicorn",
+      "Traefik",
+      "Spacy",
+      "BERT",
+      "RoBERTa",
+      "Docker",
+      "Docker Compose",
+      "GitLab",
+      "Kubernetes"
     ],
-    results: "The platform achieved a 40% increase in sales conversion and reduced inventory discrepancies by 95%."
+    results: "Increased Extraction Accuracy: Raised KSA statement quality from 30% to over 75% for certain domains. Improved Model Efficiency: Optimized DIF scoring time and reduced computational load. Better Training Decision-Making: Enabled role-based DIF scoring to eliminate bias. Seamless Deployment: Achieved a fully containerized, easily deployable system. Architecture Diagrams (Placeholder for architecture diagrams - System Flow, API Structure, ML Pipeline, and Data Flow)."
+    //Future: "Future enhancements include integrating a recommendation engine for personalized training plans and expanding the platform to support multiple languages and document formats. 🏗 CI/CD Pipelines – Automate deployment and testing. 🎛 Checkpoints for DIF Scorer – Enable model state saving/import. 🔄 User Accounts & Data Persistence – Allow saving of generated KSAs and feedback history. 🌐 React Frontend Integration – Improve user experience and accessibility. 🚀 Kubernetes Orchestration – Scale and manage microservices efficiently"
   },
 
   { // cpu emulator project
