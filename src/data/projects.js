@@ -1,6 +1,6 @@
 export const projects = [
   { // sample project from template
-    id: 1,
+    id: 0,
     featured: false,
     slug: "e-commerce-platform",
     title: "E-Commerce Platform",
@@ -52,7 +52,7 @@ export const projects = [
   },
 
   { // milton ai project
-    id: 2,
+    id: 1,
     featured: true,
     slug: "lm-milton",
     title: "Lockheed Martin's AI",
@@ -72,8 +72,14 @@ export const projects = [
       },
       {
         id: 3,
-        url: "/projects/ecommerce-cart.jpg",
-        alt: "Shopping Cart",
+        url: "/projects/milton-homepage.png",
+        alt: "milton-homepage",
+        isMain: false
+      },
+      {
+        id: 4,
+        url: "/projects/milton-ksa-config.png",
+        alt: "milton-ksa-config",
         isMain: false
       },
       // Add more images...
@@ -104,7 +110,7 @@ export const projects = [
   },
 
   { // cpu emulator project
-    id: 3,
+    id: 2,
     featured: true,
     slug: "cpu-emulator-xm23p",
     title: "CPU Emulator - XM23P",
@@ -141,7 +147,7 @@ export const projects = [
   },
 
   { // self navigating robot lead project
-    id: 4,
+    id: 3,
     featured: true,
     slug: "self-navigating-robot-lead",
     title: "Self Navigating Robot - LEAD",
@@ -179,7 +185,7 @@ export const projects = [
   },
 
   { // flight delay analysis project
-    id: 5,
+    id: 4,
     featured: false,
     slug: "flight-delay-analysis",
     title: "Flight Delay Analysis",
@@ -217,7 +223,7 @@ export const projects = [
   },
 
   { // autonomous self driving vehicle simulation project
-    id: 6,
+    id: 5,
     featured: false,
     slug: "autonomous-vehicle-simulation",
     title: "Autonomous Self Driving Vehicle Simulation",
@@ -255,7 +261,7 @@ export const projects = [
   },
 
   { // underwater monitoring real time data analysis project
-    id: 7,
+    id: 6,
     featured: false,
     slug: "underwater-monitoring",
     title: "Underwater Monitoring Real Time Data Analysis",
@@ -293,7 +299,7 @@ export const projects = [
   },
 
   { // cyber security analysis project
-    id: 8,
+    id: 7,
     featured: false,
     slug: "cyber-security-analysis",
     title: "Cyber Security Attacks Analysis Project",
@@ -331,7 +337,7 @@ export const projects = [
   },
 
   { // aircraft health monitoring and predictive maintenance project
-    id: 9,
+    id: 8,
     featured: false,
     slug: "aircraft-health-monitoring",
     title: "Aircraft Health Monitoring and Predictive Maintenance",
