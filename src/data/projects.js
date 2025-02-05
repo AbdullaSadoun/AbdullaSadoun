@@ -85,8 +85,8 @@ export const projects = [
       // Add more images...
     ],
     tags: ["AI", "ML", "NLP", "LLM", "Cloud", "Model Training"],
-    demoLink: "https://demo.example.com",
-    githubLink: "https://github.com/yourusername/project",
+    // demoLink: "https://demo.example.com",
+    // githubLink: "https://github.com/yourusername/project",
     overview: "A comprehensive e-commerce platform built with modern technologies, focusing on real-time inventory management and seamless user experience.",
     challenge: "The main challenge was implementing real-time inventory tracking while handling high concurrent user transactions.",
     solution: "Implemented WebSocket connections for real-time updates and utilized Redis for caching frequently accessed data.",
