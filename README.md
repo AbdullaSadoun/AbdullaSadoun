@@ -17,9 +17,24 @@ I'm Abdulla, a passionate and dedicated software and systems engineer specializi
 
 ## 🛠 Projects
 Here are some of the projects I've worked on that demonstrate my skills and interests:
- ### Electric Vehicle Simulator
+
+ ### [Aircraft Predective Maintenance Model](https://github.com/AbdullaSadoun/Aircraft-Health-ML)
+- Software that runs a One-Class SVM anomaly detection model to predict faults early, Datasets from Industry like NASA ADAPT, NGAFID etc where used for training.
+
+ ### [Underwater Monitoring](https://github.com/AbdullaSadoun/Underwater_Monitoring)
+- Software that runs a One-Class SVM anomaly detection model to predict faults early, Datasets from Industry like NASA ADAPT, NGAFID etc where used for training.
+
+### https://github.com/AbdullaSadoun/3901-robot-8
+### https://github.com/AbdullaSadoun/Software_Reverse_Engineering
+### https://github.com/AbdullaSadoun/XM23p
+### https://github.com/AbdullaSadoun/Cyber-Attacks-Machine-Learning
+### https://github.com/AbdullaSadoun/RamadHackathon
+### https://github.com/AbdullaSadoun/Airline-Delay-Analysis
+
+ ### [Autonmous Electric Vehicles Delivery System Simulator](https://github.com/AbdullaSadoun/Autonomous-Electric-Vehicle-Simulation)
 - Software in C to simulate usage of autonmous electric vehicles to complete deliveries
- ### Vehicle Advertising Algorithm
+
+ ### [Vehicle Advertising Software (C++)]
 - C++ Sotftware to get familiar with data structures in OOP
 - Using searching, and sorting algorithms 
 
