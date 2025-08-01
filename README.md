@@ -76,3 +76,15 @@ Feel free to check out my repositories and don't hesitate to reach out if you ha
 
 ### QR-Code-Site
 - bio.site/abdullasadoun
+
+'''
+# Website Updates:
+- Fix Contact Sec.
+
+- Add Projects aircraft HealthML - Milton - UnderwaterMonitor - Robot - Ghidra - XM23p in greater detail 
+- Add Concordia AeroSpace Eng
+- Make The Institution Names Clickable
+- Take User To Certification When possible
+- Add a way to quickly change or update the Resume
+- Add a notes/blog Section To Quickly refer to 
+'''
