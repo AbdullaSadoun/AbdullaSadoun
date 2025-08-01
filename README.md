@@ -77,7 +77,7 @@ Feel free to check out my repositories and don't hesitate to reach out if you ha
 ### QR-Code-Site
 - bio.site/abdullasadoun
 
-'''
+ <!--
 # Website Updates:
 - Fix Contact Sec.
 
@@ -87,4 +87,5 @@ Feel free to check out my repositories and don't hesitate to reach out if you ha
 - Take User To Certification When possible
 - Add a way to quickly change or update the Resume
 - Add a notes/blog Section To Quickly refer to 
-'''
+-->
+
