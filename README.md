@@ -22,7 +22,7 @@ Here are some of the projects I've worked on that demonstrate my skills and inte
 - Software that runs a One-Class SVM anomaly detection model to predict faults early, Datasets from Industry like NASA ADAPT, NGAFID etc where used for training.
 
  ### [Underwater Monitoring](https://github.com/AbdullaSadoun/Underwater_Monitoring)
-- Software that runs a One-Class SVM anomaly detection model to predict faults early, Datasets from Industry like NASA ADAPT, NGAFID etc where used for training.
+- Embedded C FreeRTOS software for real-time monitoring and data collection, built on STM32 microcontrollers using STM32Cube and FreeRTOS for sensor integration and robust operation.
 
 ### [Self Navigating Robot using ROS2/NAV2](https://github.com/AbdullaSadoun/3901-robot-8)
 - Software for a self-navigating robot built with ROS2/NAV2, featuring autonomous navigation, mapping, and path planning capabilities
