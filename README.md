@@ -1,8 +1,15 @@
 # Abdulla Sadoun
+
+| Degree/Certification | Institution | Location | Year |
+|----------------------|-------------|----------|------|
+| 🧑‍🎓 **Master of Engineering (MEng) in Aerospace Engineering** <br> _Currently pursuing_ | Concordia University | Montreal | 2025–Present |
+| 🎓 **Bachelor of Engineering (BEng) in Electrical and Computer Engineering** | Dalhousie University | Halifax | 2021–2025 |
+| ☁️ **AWS Certified Cloud Practitioner (CCP)** | Amazon Web Services | — | 2025 |
+
 [Portfolio](https://asadoun.com) 
 
 ## 👋 Hi there!
-I'm Abdulla, a passionate and dedicated software and systems engineer specializing in low-latency, high-performance applications, and system-level programming along with integrating AI and machine learning to the workforce and for Data Analysis and Analystics. With a strong background in Electrical and Computer Engineering, I thrive on challenging the boundaries of efficiency and speed in computing.
+I'm Abdulla, a passionate and dedicated electrical and computer systems engineer specializing in low-latency, high-performance applications, and system-level programming along with integrating AI and machine learning to the workforce and for Data Analysis and Analystics. With a strong background in Electrical and Computer Engineering, I thrive on challenging the boundaries of efficiency and speed in computing.
 
 ## 💻 Technical Skills
 - **Languages:** Proficient in C, C++, Python and MATLAB.
@@ -40,17 +47,16 @@ Here are some of the projects I've worked on that demonstrate my skills and inte
 - Exploratory data analysis of airline delays in the United States (2020–2022) using Jupyter Notebooks to uncover trends and insights.
 
 ### [Arabic OCR model improvement](https://github.com/AbdullaSadoun/RamadHackathon)
-
+- Made Improvements on a Pytorch Arabic Optical Character Recognition model as part of the Ramadan 2024 Hackathon.
 
  ### [Autonmous Electric Vehicles Delivery System Simulator](https://github.com/AbdullaSadoun/Autonomous-Electric-Vehicle-Simulation)
 - Software in C to simulate usage of autonmous electric vehicles to complete deliveries
 
- ### [Vehicle Advertising Software (C++)]
-- C++ Sotftware to get familiar with data structures in OOP
-- Using searching, and sorting algorithms 
+ ### [Other C/C++ Projects](https://github.com/AbdullaSadoun/C-Cpp_Projects)
+- Collection of C and C++ Sotftware to get familiar with data structures, Algorithms, Operating Systems, Computer Architecture
 
-## 🌱 I’m currently learning ...
-- Relational Database and Microsoft Azure Fundamentals
+ ## 🌱 I’m currently learning ...
+- Microsoft Azure Fundamentals
 - Machine Learning and Neural Networks
 - Getting Familiar with Python, SQL and Swift
 - LEETCODE!!!! https://leetcode.com/AbdullaSa/
