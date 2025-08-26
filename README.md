@@ -63,6 +63,7 @@ Here are some of the projects I've worked on that demonstrate my skills and inte
 
 ## 📫 How to reach me
 - LinkedIn: www.linkedin.com/in/abdullasadoun
+- Email: Abdulla.Sadoun@mail.concordia.ca
 - Email: Abdulla@asadoun.com
 - Email: Abdulla.Sadoun@dal.ca
 - Phone: 902-266-9696 (Halifax, NS, Canada)
@@ -81,6 +82,8 @@ Feel free to check out my repositories and don't hesitate to reach out if you ha
 # Website Updates:
 - Fix Contact Sec.
 
+- Update the website with the new concordia email as well as montreal phone number  
+- add the biovectra experience
 - Add Projects aircraft HealthML - Milton - UnderwaterMonitor - Robot - Ghidra - XM23p in greater detail 
 - Add Concordia AeroSpace Eng
 - Make The Institution Names Clickable
