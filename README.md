@@ -16,7 +16,6 @@ I'm Abdulla, a passionate and dedicated electrical and computer systems engineer
 - **Systems Programming:** Extensive experience in developing systems and solutions for various real life problems.
 - **Database Management:** Knowledgeable in SQL, MySQL, PostgreSQL, and MongoDB.
 - **Frameworks:** Experience with fastapi, React, django, flask and rest api frameworks.
-- **Machine Learning:**  Experienced 
 - **Version Control:** Experienced with Git version control with remote repos (gitlab, github etc.).
 - **Operating Systems:** Well-versed in FreeRTOS, ROS2, Windows, MacOS and Linux environments.
 - **Networking & Security:** Solid understanding of networking protocols and cybersecurity best practices.
